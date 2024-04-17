@@ -8,6 +8,8 @@ import "./css/home.css";
 import bobcat from "../img/bobcat.jpeg";
 import climbpine from "../img/climb_pine.jpg";
 import climbtree from "../img/climb_tree.jpg";
+import fatstump from "../img/fatstump.jpg";
+import Gallery from "./Gallery";
 
 
 const Home = () => {
@@ -17,13 +19,16 @@ const Home = () => {
                 <h1 className="display-1 text-center p-3 m-3"><b>Welcome to Alpha Tree Surgeons</b></h1>
                 <div className="row justy-content-center">
                     <div className="col">
-                        <img src={trimmedpine} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <img src={trimmedpine} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
                         <img src={treephoto} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <img src={nicetree} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <img src={nicetree} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <img src={fatstump} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                 </div>
                 <div className="row">
@@ -61,13 +66,13 @@ const Home = () => {
                         <div id="carouselTree" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src={climbtree} class="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                <img src={climbtree} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src={bobcat} class="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                <img src={bobcat} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src={climbpine} class="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                <img src={climbpine} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselTree" data-bs-slide="prev">
@@ -86,6 +91,7 @@ const Home = () => {
             </div>
             <About />
             <Contact />
+            <Gallery />
         </div>
 
     )
