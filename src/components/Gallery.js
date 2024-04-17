@@ -2,8 +2,8 @@ import React from "react";
 import sideyard from "../img/sideyard.jpg";
 import sideyard_b4 from "../img/sideyard_b4.jpg";
 import sideyard_after from "../img/sideyard_after.jpg";
-import side from "../img/side.jpeg";
-import side_after from "../img/side_after.jpeg";
+import backlot from "../img/backlot.jpg";
+import backlot_done from "../img/backlot_done.jpg";
 import blue_building from "../img/blue_building.jpg";
 import beside_driveway from "../img/beside_driveway.jpg";
 import beside_driveway2 from "../img/beside_driveway2.jpg";
@@ -29,12 +29,12 @@ const Gallery = () => {
                         <img src={sideyard_after} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <img src={side} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <img src={backlot} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <img src={side_after} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <img src={backlot_done} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
                         <img src={blue_building} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />

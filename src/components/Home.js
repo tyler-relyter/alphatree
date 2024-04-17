@@ -5,7 +5,7 @@ import treephoto from "../img/treephoto31.jpg";
 import trimmedpine from "../img/trimmed_pine.jpg";
 import nicetree from "../img/nice_trim.jpg";
 import "./css/home.css";
-import bobcat from "../img/bobcat.jpeg";
+import corner from "../img/corner.jpg";
 import climbpine from "../img/climb_pine.jpg";
 import climbtree from "../img/climb_tree.jpg";
 import fatstump from "../img/fatstump.jpg";
@@ -69,7 +69,7 @@ const Home = () => {
                                 <img src={climbtree} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src={bobcat} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                <img src={corner} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                                 <div class="carousel-item">
                                 <img src={climbpine} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
