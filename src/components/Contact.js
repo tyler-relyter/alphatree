@@ -8,7 +8,7 @@ const Contact = () => {
                 <h2 className="display-2 text-center p-3 m-3">Need A Quote?</h2>
                 <a href="mailto: hytyler23@gmail.com" className="btn btn-primary btn-lg">Email Us</a>
                 <hr/>
-                <p className="text-center p-3 m-3 fs-3">Please call us at <strong>555-555-5555</strong></p>
+                <p className="text-center p-3 m-3 fs-3">Please call us at <a href="tel:+15555555555"><strong>555-555-5555</strong></a></p>
             </div>
         </div>
     )

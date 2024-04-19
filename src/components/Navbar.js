@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav id="nav" className="navbar navbar-expand-lg navbar-light sticky-top">
                 <div className="container-fluid">
                     <div className="dropdown justify-content-start">
-                        <button className="btn btn-lg btn-secondary dropdown dropdown-toggle m-3 p-3" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button className="btn btn-lg btn-white border border-white text-white dropdown dropdown-toggle m-3 p-3" type="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Menu</button>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a className="dropdown-item" href='/'>Home</a>
@@ -19,7 +19,16 @@ const Navbar = () => {
                             <a className="dropdown-item" href='#gallery'>Gallery</a>
                         </div>
                     </div>
-                    <h1 className="display-1 text-white text-uppercase">Alpha Tree Surgeons</h1>
+                    <div className="">
+                        
+                        <h1 className="display-1 text-white text-uppercase m-2"><i className="fas fa-tree text-white m-2"></i>Alpha Tree Surgeons<i className="fas fa-tree text-white m-2"></i></h1>
+                        <div className="d-flex justify-content-end">
+                            <p className="text-white fs-2 mx-5"><a href="tel:+15555555555"><strong>555-555-5555</strong></a></p>
+                            <i className="fab fa-facebook-square fa-3x text-white m-2"></i>
+                            <i className="fab fa-instagram fa-3x text-white m-2"></i>
+                            <i className="fab fa-twitter-square fa-3x text-white m-2"></i>
+                        </div>
+                    </div>
                 </div>
             </nav>
         

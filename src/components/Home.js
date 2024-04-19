@@ -51,7 +51,8 @@ const Home = () => {
                     </div>
                     <div className="col border border-success border-3">
                         <h2 className="display-3 text-center p-3 m-3">Pruning</h2>
-                        <p className="text-center fs-3 p-3 m-3">Alpha Tree strives to help keep their customers informed on proper pruning practices and its benefits on tree health in the future.</p>
+                        <p className="text-center fs-3 p-3 m-3">Do your trees and shrubs need a haircut? We can do that and more. Alpha Tree strives to help keep their customers informed on proper pruning practices and its benefits on tree health in the future. At your consultation,
+                        we will walk your property to determine your pruning and tree trimming needs.</p>
                     </div>
                     <div className="col border border-success border-3">
                         <h3 className="display-3 text-center p-3 m-3">Consultation Services</h3>
