@@ -1,4 +1,5 @@
 import React from "react";
+import QuoteForm from "./QuoteForm";
 
 
 const Contact = () => {
@@ -8,8 +9,9 @@ const Contact = () => {
                 <h2 className="display-2 text-center p-3 m-3">Need A Quote?</h2>
                 <a href="mailto: hytyler23@gmail.com" className="btn btn-primary btn-lg">Email Us</a>
                 <hr/>
-                <p className="text-center p-3 m-3 fs-3">Please call us at <a href="tel:+15555555555"><strong>555-555-5555</strong></a></p>
+                <p className="text-center p-3 m-3 fs-3">Please call us at <a href="tel:+19105208878"><strong>+1-910-520-8878</strong></a></p>
             </div>
+            <QuoteForm />
         </div>
     )
 }

@@ -9,6 +9,7 @@ import corner from "../img/corner.jpg";
 import climbpine from "../img/climb_pine.jpg";
 import climbtree from "../img/climb_tree.jpg";
 import fatstump from "../img/fatstump.jpg";
+import bradToppingTree from "../img/brad_cutting_top.mp4"
 import Gallery from "./Gallery";
 
 
@@ -64,29 +65,35 @@ const Home = () => {
                     <div className="col"></div>
                     <div className="col">
                         <h3 className="display-3 text-center p-3 m-3">Our Work in Action</h3>
-                        <div id="carouselTree" class="carousel slide">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                <img src={climbtree} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                        <div id="carouselTree" className="carousel slide">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active" id="videoContainer">
+                                    <video controls={true} style={{ width: '100%', height: 'auto' }}>
+                                        <source src={bradToppingTree} type="video/mp4"/>
+                                            Your browser does not support the video tag.
+                                    </video>
                                 </div>
-                                <div class="carousel-item">
-                                <img src={corner} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={climbtree} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
-                                <div class="carousel-item">
-                                <img src={climbpine} class="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                <div className="carousel-item">
+                                    <img src={corner} className="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                    <img src={climbpine} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTree" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselTree" data-bs-slide="prev">
+                                <i className="fas fa-chevron-left"></i>
+                                <span className="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselTree" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselTree" data-bs-slide="next">
+                                <i className="fas fa-chevron-right"></i>
+                                <span className="visually-hidden">Next</span>
                             </button>
                         </div>
                     </div>
-                    <div class="col"></div>
+                    <div className="col"></div>
 
                 </div>
             </div>
