@@ -72,13 +72,13 @@ const Home = () => {
                     </div>
                     <div className="col border border-success border-3">
                         <h2 className="display-3 text-center p-3 m-3">Pruning</h2>
-                        <p className="text-center fs-3 p-3 m-3">Do your trees and shrubs need a haircut? We can do that and more. Alpha Tree strives to help keep their customers informed on proper pruning practices and its benefits on tree health in the future. At your consultation,
+                        <p className="text-center fs-3 p-3 m-3">Do your trees and shrubs need a haircut? We can do that and more. Alpha Tree strives to keep their customers informed on proper pruning practices and its benefits on tree health in the future. At your consultation,
                         we will walk your property to determine your pruning and tree trimming needs.</p>
                     </div>
                     <div className="col border border-success border-3">
                         <h3 className="display-3 text-center p-3 m-3">Consultation Services</h3>
                         <p className="text-center fs-3 p-3 m-3">Chat with a pro at Alpha Tree to determine the health of the trees on your property. We provide a detailed plan on what should be done to keep the trees on your property
-                        safe and disease-free. <a href="#contact">Call us</a> today and we'll send one of our experts to walk through and show you spots of decay, underlying illnesses, issues with bark or cambium layer, pests, etc.</p>
+                        safe and disease-free. <a href="#contact">Call us</a> today and we'll send one of our experts to walk through and show you potential spots of decay, underlying illnesses, issues with bark or cambium layer, pests, etc.</p>
                     </div>
                 </div>
                 <div className="row">
@@ -126,9 +126,11 @@ const Home = () => {
             <About />
             <Contact />
             <Gallery />
-            <button className={`scrollTop ${showScroll ? 'show' : ''}`} onClick={scrollTop}>
-                <i className="fas fa-chevron-up">Top of page</i>
-            </button>
+            <div className="justify-content-center">
+                <button className={`scrollTop ${showScroll ? 'show' : ''}`} onClick={scrollTop}>
+                    <i className="fas fa-chevron-up">Top of page</i>
+                </button>
+            </div>
         </div>
 
     )
