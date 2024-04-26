@@ -17,7 +17,7 @@ const QuoteForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("http://localhost:4000/quote", {
+            const response = await fetch("https://master.d320wwzm2zj3jk.amplifyapp.com/quote", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
