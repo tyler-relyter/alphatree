@@ -6,6 +6,10 @@ const About = () => {
             <div className="container-lg bg-light">
                 <div className="row">
                     <h1 className="display-1 text-center bg-dark text-white">About Us</h1>
+                    <p className="text-center p-3 m-3 fs-3">Alpha Tree Surgeons is a local family owned and operated business serving the Wilmington, NC and surrounding areas.<br />
+                     We are fully insured and licensed to provide tree and landscaping services in the state of North Carolina.<br /> 
+                    We provide tree removal, tree trimming, lot clearing, and storm damage cleanup (24/7 Emergency Service).<br /> 
+                    We are proud to be a part of the Wilmington community and we look forward to serving you.</p>
                 </div>
                 <div className="row border">
                     

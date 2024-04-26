@@ -60,7 +60,7 @@ const Home = () => {
                 </div>
                 
                 <h6 className="text-center text-uppercase display-1 p-3 m-3">Trust us with your projects</h6>
-                <p className="text-center fs-2 p-3 m-2 fw-bold">"We do it all with just one call"</p>
+                <p className="text-center fs-2 p-3 m-2 fw-bold">"We do it all in just one call"</p>
                 <div className="row">
                     <h6 className="text-center p-3 m-3 display-2 bg-dark text-white">SERVICES</h6>
                 </div>

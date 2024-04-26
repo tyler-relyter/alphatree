@@ -28,6 +28,10 @@ import trimmedpine from "../img/trimmed_pine.jpg";
 import fatstump from "../img/fatstump.jpg";
 import pine_top from "../img/pine_top.jpg";
 import saw_on_stump from "../img/saw_on_stump.jpg";
+import wood_table from "../img/wood_table.jpg";
+import wood_table2 from "../img/wood_table2.jpg";
+import deadtree from "../img/deadtree.jpeg";
+import corner from "../img/corner.jpg";
 import "./css/gallery.css";
 
 
@@ -137,20 +141,20 @@ const Gallery = () => {
                         <FullscreenImage src={saw_on_stump} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                 </div>
-                {/* <div className="row">
+                <div className="row">
                     <div className="col">
-                        <FullscreenImage src={} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={wood_table} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={wood_table2} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={deadtree} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={corner} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
-                </div> */}
+                </div>
             </div>
 
 
