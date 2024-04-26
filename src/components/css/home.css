@@ -20,3 +20,16 @@
     transform: translateY(-25%);
     z-index: 1;
 }
+
+.scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1000;
+}
+
+.scrollTop.show {
+    opacity: 1;
+}

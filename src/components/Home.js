@@ -1,36 +1,55 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import About from "./About";
 import Contact from "./Contact";
-import treephoto from "../img/treephoto31.jpg";
-import trimmedpine from "../img/trimmed_pine.jpg";
+import nicetree_b4 from "../img/nice_trimb4.jpg";
+import brad from "../img/brad.jpg";
 import nicetree from "../img/nice_trim.jpg";
+import brad_stump from "../img/brad_stump.jpg";
 import "./css/home.css";
-import corner from "../img/corner.jpg";
-import climbpine from "../img/climb_pine.jpg";
+import climbpine2 from "../img/climb_pine2.jpg";
 import climbtree from "../img/climb_tree.jpg";
-import fatstump from "../img/fatstump.jpg";
+import action_between from "../img/action_between.jpg";
 import bradToppingTree from "../img/brad_cutting_top.mp4"
+import lowering_pinetop from "../img/lowering_pinetop.jpg";
 import Gallery from "./Gallery";
+import FullscreenImage from "./Fullscreen";
 
 
 const Home = () => {
+    const [showScroll, setShowScroll] = useState(false)
+
+    useEffect(() => {
+        const checkScrollTop = () => {
+            if (!showScroll && window.scrollY > 400){
+                setShowScroll(true)
+            } else if (showScroll && window.scrollY <= 400){
+                setShowScroll(false)
+            }
+        };
+
+        window.addEventListener('scroll', checkScrollTop)
+        return () => window.removeEventListener('scroll', checkScrollTop)
+    }, [showScroll]);
+
+    const scrollTop = () =>{
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    };
+
     return (
         <div>
             <div className="container-fluid">
                 <h1 className="display-1 text-center p-3 m-3"><b>Welcome to Alpha Tree Surgeons</b></h1>
                 <div className="row justy-content-center">
                     <div className="col">
-                        <img src={trimmedpine} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={brad} className="img-fluid m-5 p-3" style={{ maxHeight: '75%'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <img src={treephoto} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={nicetree_b4} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <img src={nicetree} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={nicetree} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
                     </div>
-                    <div className="col">
-                        <img src={fatstump} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
+                    
                 </div>
                 <div className="row">
                     <div className="col"></div>
@@ -40,7 +59,8 @@ const Home = () => {
                     <div className="col"></div>
                 </div>
                 
-                <h6 className="text-center text-uppercase display-4 p-3 m-3">Trust us with your projects</h6>
+                <h6 className="text-center text-uppercase display-1 p-3 m-3">Trust us with your projects</h6>
+                <p className="text-center fs-2 p-3 m-2 fw-bold">"We do it all with just one call"</p>
                 <div className="row">
                     <h6 className="text-center p-3 m-3 display-2 bg-dark text-white">SERVICES</h6>
                 </div>
@@ -74,13 +94,19 @@ const Home = () => {
                                     </video>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={climbtree} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={action_between} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={corner} className="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={climbtree} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={climbpine} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={lowering_pinetop} className="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                    <FullscreenImage src={climbpine2} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                    <FullscreenImage src={brad_stump} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselTree" data-bs-slide="prev">
@@ -100,6 +126,9 @@ const Home = () => {
             <About />
             <Contact />
             <Gallery />
+            <button className={`scrollTop ${showScroll ? 'show' : ''}`} onClick={scrollTop}>
+                <i className="fas fa-chevron-up">Top of page</i>
+            </button>
         </div>
 
     )

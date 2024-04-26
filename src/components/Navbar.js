@@ -24,9 +24,8 @@ const Navbar = () => {
                         <h1 className="display-5 text-white text-uppercase m-2"><i className="fas fa-tree text-white m-2"></i>Alpha Tree Surgeons</h1>
                         <div className="d-flex justify-content-end">
                             <p className="text-white fs-2 mx-5"><a href="tel:+19105208878"><strong>+1-910-520-8878</strong></a></p>
-                            <i className="fab fa-facebook-square fa-3x text-white m-2"></i>
-                            <i className="fab fa-instagram fa-3x text-white m-2"></i>
-                            <i className="fab fa-twitter-square fa-3x text-white m-2"></i>
+                            <a href="https://www.facebook.com/AlphaTreeSurgeons?mibextid=ZbWKwL"><i className="fab fa-facebook-square fa-3x text-white m-2"></i></a>
+                            
                         </div>
                     </div>
                 </div>
