@@ -3,16 +3,16 @@ const cors = require('cors');
 const nodemailer = require('nodemailer');
 
 const app = express();
-const port = 443;
+const port = 4400;
 
 app.use(cors());
 app.use(express.json());
 
 let transporter = nodemailer.createTransport({
-    service: 'gmail', // use 'gmail' or any other email service
+    service: 'gmail', // email provider
     auth: {
-        user: 'hytyler23@gmail.com', // your email
-        pass: 'yrmmjaemccnqgqfn' // your email password
+        user: 'hytyler23@gmail.com', // email
+        pass: 'yrmmjaemccnqgqfn' // email app password
     }
 });
 

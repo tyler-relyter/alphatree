@@ -5,7 +5,7 @@ import QuoteForm from "./QuoteForm";
 const Contact = () => {
     return (
         <div id="contact">
-            <div className="container-fluid bg-light justify-content-center text-center">
+            <div className="container bg-light border border-dark border-3 justify-content-center text-center">
                 <h2 className="display-2 text-center p-3 m-3">Need A Quote?</h2>
                 <a href="mailto: hytyler23@gmail.com" className="btn btn-primary btn-lg">Email Us</a>
                 <hr/>

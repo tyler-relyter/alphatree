@@ -6,6 +6,7 @@ import brad from "../img/brad.jpg";
 import nicetree from "../img/nice_trim.jpg";
 import brad_stump from "../img/brad_stump.jpg";
 import "./css/home.css";
+import "./css/fonts.css";
 import climbpine2 from "../img/climb_pine2.jpg";
 import climbtree from "../img/climb_tree.jpg";
 import action_between from "../img/action_between.jpg";
@@ -62,9 +63,9 @@ const Home = () => {
                 <h6 className="text-center text-uppercase display-1 p-3 m-3">Trust us with your projects</h6>
                 <p className="text-center fs-2 p-3 m-2 fw-bold">"We do it all in just one call"</p>
                 <div className="row">
-                    <h6 className="text-center p-3 m-3 display-2 bg-dark text-white">SERVICES</h6>
+                    <h6 className="text-center p-3 m-3 display-2 bg-dark text-white"><i className="fas fa-tree text-white m-2"></i>SERVICES<i className="fas fa-tree text-white m-2"></i></h6>
                 </div>
-                <div className="row">
+                <div className="row" style={{fontFamily: 'Sedan'}}>
                     <div className="col border border-success border-3">
                         <h3 className="display-3 text-center p-3 m-3">Removal</h3>
                         <p className="text-center fs-3 p-3 m-3">Alpha Tree Surgeons is a company that specializes in tree removal. We have the proper tools and equipment to remove trees safely and efficiently, going 
@@ -72,11 +73,11 @@ const Home = () => {
                     </div>
                     <div className="col border border-success border-3">
                         <h2 className="display-3 text-center p-3 m-3">Pruning</h2>
-                        <p className="text-center fs-3 p-3 m-3">Do your trees and shrubs need a haircut? We can do that and more. Alpha Tree strives to keep their customers informed on proper pruning practices and its benefits on tree health in the future. At your consultation,
+                        <p className="text-center fs-3 p-3 m-3">Do your trees and shrubs need a haircut? We can do that and more. Alpha Tree strives to keep their customers informed on proper pruning practices and their benefits on tree health in the future. At your consultation,
                         we will walk your property to determine your pruning and tree trimming needs.</p>
                     </div>
                     <div className="col border border-success border-3">
-                        <h3 className="display-3 text-center p-3 m-3">Consultation Services</h3>
+                        <h3 className="display-3 text-center p-3 m-3">Consultations</h3>
                         <p className="text-center fs-3 p-3 m-3">Chat with a pro at Alpha Tree to determine the health of the trees on your property. We provide a detailed plan on what should be done to keep the trees on your property
                         safe and disease-free. <a href="#contact">Call us</a> today and we'll send one of our experts to walk through and show you potential spots of decay, underlying illnesses, issues with bark or cambium layer, pests, etc.</p>
                     </div>
