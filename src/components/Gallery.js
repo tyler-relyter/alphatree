@@ -42,7 +42,7 @@ const Gallery = () => {
     return (
         <div id="gallery">
             <div className="container-fluid">
-                <h1 className="display-1 text-center p-3 m-3"><b>Gallery</b></h1>
+                <h1 className="display-1 text-center p-3 m-3"><b><i className="fas fa-tree m-2"></i>Gallery</b><i className="fas fa-tree m-2"></i></h1>
                 <div className="row">
                     <div className="col">
                         <FullscreenImage src={sideyard_b4} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px', cursor: 'pointer'}} alt="Tree Surgeons" />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./css/fonts.css";
 
 
@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div id="about" style={{fontFamily: 'Sedan'}}>
             <div className="container-lg bg-light">
-                <div className="row">
+                <div className="row border">
                     <h1 className="display-1 text-center bg-dark text-white"><i className="fas fa-tree text-white m-2"></i>About Us<i className="fas fa-tree text-white m-2"></i></h1>
                     <p className="text-center p-3 m-3 fs-3">Alpha Tree Surgeons is a local family owned and operated business serving the Wilmington, NC and surrounding areas.<br />
                      We are fully insured and licensed to provide tree and landscaping services in the state of North Carolina.<br /> 

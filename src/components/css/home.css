@@ -24,7 +24,7 @@
 .scrollTop {
     position: fixed;
     bottom: 20px;
-    right: 240px;
+    right: 140px;
     opacity: 0;
     transition: opacity 0.5s;
     z-index: 1000;

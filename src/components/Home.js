@@ -7,6 +7,8 @@ import nicetree from "../img/nice_trim.jpg";
 import brad_stump from "../img/brad_stump.jpg";
 import "./css/home.css";
 import "./css/fonts.css";
+import saw from "../img/chainsaw.svg";
+import "./css/saw_icon.css";
 import climbpine2 from "../img/climb_pine2.jpg";
 import climbtree from "../img/climb_tree.jpg";
 import action_between from "../img/action_between.jpg";
@@ -53,11 +55,15 @@ const Home = () => {
                     
                 </div>
                 <div className="row">
-                    <div className="col"></div>
+                    <div className="col text-center">
+                        <img id="saw" src={saw} alt="chaimnsaw icon" className="img rounded m-2" />
+                    </div>
                     <div className="col">
                         <a href="#contact"><h3 className="display-3 bg-dark text-white text-center p-3 m-3"><b>CALL FOR A FREE ESTIMATE!</b></h3></a>
                     </div>
-                    <div className="col"></div>
+                    <div className="col text-center">
+                        <img id="saw" src={saw} alt="chaimnsaw icon" className="img rounded m-2" />
+                    </div>
                 </div>
                 
                 <h6 className="text-center text-uppercase display-1 p-3 m-3">Trust us with your projects</h6>
