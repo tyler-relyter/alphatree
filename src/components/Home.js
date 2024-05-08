@@ -56,13 +56,13 @@ const Home = () => {
                 </div>
                 <div className="row">
                     <div className="col text-center">
-                        <img id="saw" src={saw} alt="chaimnsaw icon" className="img rounded m-2" />
+                        <img id="saw" src={saw} alt="chaimnsaw icon" className="img-fluid m-2" />
                     </div>
                     <div className="col">
-                        <a href="#contact"><h3 className="display-3 bg-dark text-white text-center p-3 m-3"><b>CALL FOR A FREE ESTIMATE!</b></h3></a>
+                        <a href="#contact" className="custom-link"><h3 className="display-3 bg-dark text-white text-center p-3 m-3"><b>CALL FOR A FREE ESTIMATE!</b></h3></a>
                     </div>
                     <div className="col text-center">
-                        <img id="saw" src={saw} alt="chaimnsaw icon" className="img rounded m-2" />
+                        <img id="saw" src={saw} alt="chaimnsaw icon" className="img-fluid m-2" />
                     </div>
                 </div>
                 

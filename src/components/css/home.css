@@ -33,3 +33,14 @@
 .scrollTop.show {
     opacity: 1;
 }
+
+.custom-link {
+    text-decoration: underline;
+    text-decoration-color: darkgreen;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
