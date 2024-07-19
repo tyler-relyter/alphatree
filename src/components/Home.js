@@ -138,6 +138,9 @@ const Home = () => {
                     <i className="fas fa-chevron-up">Top of page</i>
                 </button>
             </div>
+            <footer className="bg-dark text-white text-center p-3 m-3">
+                <p className="fs-2">Alpha Tree Surgeons &copy; 2021 | 910.520.8878 | alpha.tree@yahoo.com</p>
+            </footer>
         </div>
 
     )
