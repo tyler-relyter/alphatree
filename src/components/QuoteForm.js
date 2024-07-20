@@ -17,7 +17,7 @@ const QuoteForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("https://master.d2vuwg4344p6f.amplifyapp.com/quote", {
+            const response = await fetch("https://alphatreesurgeons.net/quote", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
