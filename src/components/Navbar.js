@@ -26,6 +26,7 @@ const Navbar = () => {
                             <p className="fs-2 mx-5"><a id="phone-link" href="tel:+19105208878"><strong>+1-910-520-8878</strong></a></p>
                             <p className="fs-2 mx-5"><a id="phone-link" href="tel:+19106028081"><strong>+1-910-602-8081</strong></a></p>
                             <a href="https://www.facebook.com/AlphaTreeSurgeons?mibextid=ZbWKwL"><i id="fb-link" className="fab fa-facebook-square fa-3x m-2"></i></a>
+                            <a href="https://www.instagram.com/alpha.tree910/"><i id="ig-link" className="fab fa-instagram-square fa-3x m-2"></i></a>
                             
                         </div>
                     </div>
