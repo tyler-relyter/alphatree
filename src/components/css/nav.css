@@ -17,3 +17,13 @@
     color: rgb(40, 127, 228);
     text-decoration: none;
 }
+
+#ig-link {
+    color: white;
+    text-decoration: none;
+}
+
+#ig-link:hover {
+    color: rgb(40, 127, 228);
+    text-decoration: none;
+}

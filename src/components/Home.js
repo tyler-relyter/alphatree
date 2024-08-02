@@ -42,17 +42,10 @@ const Home = () => {
         <div>
             <div className="container-fluid">
                 <h1 className="display-1 text-center p-3 m-3"><b>Welcome to Alpha Tree Surgeons</b></h1>
-                <div className="row justy-content-center">
-                    <div className="col">
-                        <FullscreenImage src={brad} className="img-fluid m-5 p-3" style={{ maxHeight: '75%'}} alt="Tree Surgeons" />
+                <div className="">
+                    <div id="brad-image">
+                        <FullscreenImage src={brad} className="img-fluid m-5 p-3" alt="Tree Surgeons" />
                     </div>
-                    <div className="col">
-                        <FullscreenImage src={nicetree_b4} className="img-fluid m-5 p-3" style={{ height: '500px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={nicetree} className="img-fluid m-5 p-3" style={{ maxHeight: '500px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    
                 </div>
                 <div className="row">
                     <div className="col text-center">
@@ -101,27 +94,33 @@ const Home = () => {
                                     </video>
                                 </div>
                                 <div className="carousel-item">
-                                    <FullscreenImage src={action_between} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={nicetree_b4} className="img-fluid d-block w-100 carousel-pic" alt="Tree Surgeons" />
                                 </div>
                                 <div className="carousel-item">
-                                    <FullscreenImage src={climbtree} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={nicetree} className="img-fluid d-block w-100 carousel-pic" alt="Tree Surgeons" />
                                 </div>
                                 <div className="carousel-item">
-                                    <FullscreenImage src={lowering_pinetop} className="img-fluid d-block w-100" style={{ height: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={action_between} className="img-fluid d-block w-100 carousel-pic" alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                    <FullscreenImage src={climbpine2} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={climbtree} className="img-fluid d-block w-100 carousel-pic" alt="..."/>
                                 </div>
                                 <div className="carousel-item">
-                                    <FullscreenImage src={brad_stump} className="img-fluid d-block w-100" style={{ maxHeight: '650px', width: '500px'}} alt="..."/>
+                                    <FullscreenImage src={lowering_pinetop} className="img-fluid d-block w-100 carousel-pic" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                    <FullscreenImage src={climbpine2} className="img-fluid d-block w-100 carousel-pic" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                    <FullscreenImage src={brad_stump} className="img-fluid d-block w-100 carousel-pic" alt="..."/>
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#carouselTree" data-bs-slide="prev">
-                                <i className="fas fa-chevron-left"></i>
+                                <i className="fas fa-chevron-left" style={{color: "black"}}></i>
                                 <span className="visually-hidden">Previous</span>
                             </button>
                             <button className="carousel-control-next" type="button" data-bs-target="#carouselTree" data-bs-slide="next">
-                                <i className="fas fa-chevron-right"></i>
+                                <i className="fas fa-chevron-right" style={{color: "black"}}></i>
                                 <span className="visually-hidden">Next</span>
                             </button>
                         </div>

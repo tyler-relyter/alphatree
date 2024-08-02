@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import './css/fullscreen.css';
 
 const FullscreenImage = ({ src }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -44,7 +45,6 @@ const FullscreenImage = ({ src }) => {
         src={src}
         className='img-fluid m-5 p-3'
         alt="Click to view fullscreen"
-        style={{ cursor: 'pointer',  height: '100%', width: '100%' }}
         onClick={isFullscreen ? closeFullscreen : openFullscreen}
       />
     </div>

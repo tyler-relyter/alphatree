@@ -45,114 +45,114 @@ const Gallery = () => {
                 <h1 className="display-1 text-center p-3 m-3"><b><i className="fas fa-tree m-2"></i>Gallery</b><i className="fas fa-tree m-2"></i></h1>
                 <div className="row">
                     <div className="col">
-                        <FullscreenImage src={sideyard_b4} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px', cursor: 'pointer'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={sideyard_b4} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={sideyard} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={sideyard} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={sideyard_after} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={sideyard_after} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={backlot} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <FullscreenImage src={backlot_done} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={blue_building} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={beside_driveway} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={beside_driveway2} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={backlot} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <FullscreenImage src={chicken_bobcat} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={backlot_done} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={firewood} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={blue_building} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={chicken_lawnmower} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={beside_driveway} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={saw_on_stump2} className="img-fluid m-5 p-3" id="imgThumbnail" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <FullscreenImage src={clearedlot} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={front_b4} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={front_after} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={front_after2} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={beside_driveway2} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <FullscreenImage src={pine_sideb4} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={chicken_bobcat} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={pine_sideafter} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={firewood} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={corner_trimmedoak} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={chicken_lawnmower} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={cleared_besidefence} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <FullscreenImage src={bigtree_betweenhouses} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={trimmed_liveoak} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={climb_pine2} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
-                    </div>
-                    <div className="col">
-                        <FullscreenImage src={frontyard} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={saw_on_stump2} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <FullscreenImage src={trimmedpine} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={clearedlot} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={fatstump} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={front_b4} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={pine_top} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={front_after} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={saw_on_stump} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={front_after2} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
                     </div>
                 </div>
                 <div className="row">
                     <div className="col">
-                        <FullscreenImage src={wood_table} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={pine_sideb4} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={wood_table2} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={pine_sideafter} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={deadtree} className="img-fluid m-5 p-3" style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={corner_trimmedoak} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                     <div className="col">
-                        <FullscreenImage src={corner} className="img-fluid m-5 p-3"  style={{ height: '450px', width: '450px'}} alt="Tree Surgeons" />
+                        <FullscreenImage src={cleared_besidefence} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <FullscreenImage src={bigtree_betweenhouses} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={trimmed_liveoak} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={climb_pine2} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={frontyard} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <FullscreenImage src={trimmedpine} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={fatstump} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={pine_top} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={saw_on_stump} className="img-fluid m-5 p-3"   alt="Tree Surgeons" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <FullscreenImage src={wood_table} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={wood_table2} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={deadtree} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
+                    </div>
+                    <div className="col">
+                        <FullscreenImage src={corner} className="img-fluid m-5 p-3"  alt="Tree Surgeons" />
                     </div>
                 </div>
             </div>

@@ -44,3 +44,7 @@
     text-decoration-color: white;
 }
 
+#brad-image {
+    display: grid;
+    place-items: center;
+}
