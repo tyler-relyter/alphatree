@@ -27,8 +27,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node server.js",
     "client": "react-scripts start",
@@ -55,7 +53,6 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.2",
-    "gh-pages": "^6.1.1"
+    "concurrently": "^8.2.2"
   }
 }
