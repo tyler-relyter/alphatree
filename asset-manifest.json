@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alphatree/static/css/main.6b078b53.css",
-    "main.js": "/alphatree/static/js/main.6ca45c89.js",
+    "main.js": "/alphatree/static/js/main.cd87dbda.js",
     "static/js/453.1afb9d2e.chunk.js": "/alphatree/static/js/453.1afb9d2e.chunk.js",
     "static/media/brad_cutting_top.mp4": "/alphatree/static/media/brad_cutting_top.81f6e12aa17e71e26c2b.mp4",
     "static/media/chicken_lawnmower.jpg": "/alphatree/static/media/chicken_lawnmower.a84ccaed9437c422ee7b.jpg",
@@ -55,11 +55,11 @@
     "static/media/fa-v4compatibility.woff2": "/alphatree/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/alphatree/index.html",
     "main.6b078b53.css.map": "/alphatree/static/css/main.6b078b53.css.map",
-    "main.6ca45c89.js.map": "/alphatree/static/js/main.6ca45c89.js.map",
+    "main.cd87dbda.js.map": "/alphatree/static/js/main.cd87dbda.js.map",
     "453.1afb9d2e.chunk.js.map": "/alphatree/static/js/453.1afb9d2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b078b53.css",
-    "static/js/main.6ca45c89.js"
+    "static/js/main.cd87dbda.js"
   ]
 }
